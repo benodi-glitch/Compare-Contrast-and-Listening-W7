@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Life: Preference & Compare–Contrast Lab</title>
+<style>
+:root{--navy:#21305f;--blue:#5573a8;--accent:#df704e;--cream:#f7f8fc;--text:#262c38;--muted:#687188;--line:#dbe1ec;--soft:#f1f5fb}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.45}.wrap{max-width:1020px;margin:auto;padding:24px 18px 42px}.header{background:var(--navy);color:#fff;border-radius:15px;padding:23px 25px;margin-bottom:18px}.header h1{margin:0 0 7px;font:700 27px Georgia,serif}.header p{margin:0;color:#d9e3f7;font-size:14px}.meta{display:grid;grid-template-columns:1fr 180px;gap:12px;margin-bottom:16px}.field label{display:block;margin-bottom:5px;font-size:12px;font-weight:700;color:var(--muted)}.field input{width:100%;padding:10px 11px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:14px}.section{background:#fff;border:1px solid var(--line);border-radius:12px;padding:19px;margin-bottom:16px}.section h2{margin:0 0 7px;color:var(--navy);font:700 20px Georgia,serif}.intro{margin:0 0 14px;color:var(--muted);font-size:13.5px}.rules{display:grid;grid-template-columns:1fr 1fr;gap:10px}.rule{border:1px solid #dfe6f1;border-left:4px solid var(--blue);border-radius:8px;padding:10px 12px;background:#f8faff;font-size:13px}.rule strong{color:var(--navy)}.audio-q,.prompt{padding:12px 0;border-top:1px solid var(--line)}.audio-q:first-child,.prompt:first-child{border-top:0}.audio-q label,.prompt .q{display:block;font-size:14px;font-weight:700;margin-bottom:7px}.scenarios{display:grid;grid-template-columns:1fr 1fr;gap:12px}.scenario{border:1px solid var(--line);border-radius:10px;padding:13px;background:#fff;transition:.15s}.scenario.selected{border:2px solid var(--accent);background:#fffaf8}.scenario-title{display:flex;align-items:center;gap:8px;margin-bottom:7px}.scenario-title input{accent-color:var(--accent)}.scenario-title strong{color:var(--navy);font-size:15px}.scenario p{margin:5px 0;font-size:13.2px}.scenario .dilemma{color:var(--muted)}.roles{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.role{background:var(--soft);border:1px solid #dfe6f1;border-radius:8px;padding:9px;font-size:12.4px}.role strong{display:block;color:var(--navy);margin-bottom:3px}.lang{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}.langbox{border:1px solid var(--line);border-radius:8px;padding:10px;background:#fbfcff;font-size:12.8px}.langbox strong{color:var(--navy);display:block;margin-bottom:5px}.final{display:grid;grid-template-columns:1fr 1fr;gap:12px}textarea{width:100%;min-height:64px;resize:vertical;border:1px solid var(--line);border-radius:8px;padding:9px 10px;font:13.5px Arial,Helvetica,sans-serif;background:#fcfdff}textarea:focus,input:focus{outline:2px solid rgba(85,115,168,.25);outline-offset:1px}.small-note,.note{font-size:12px;color:var(--muted)}.actions{text-align:center;margin-top:8px}button{border:0;border-radius:9px;padding:12px 20px;background:var(--accent);color:#fff;font-size:15px;font-weight:700;cursor:pointer}.badge{display:inline-block;font-size:11px;padding:3px 7px;border-radius:999px;background:#edf2fb;color:var(--blue);margin-left:5px}@media(max-width:820px){.meta,.rules,.scenarios,.final{grid-template-columns:1fr}.roles{grid-template-columns:1fr 1fr}.lang{grid-template-columns:1fr}}
+
+.mcq-item{border-top:1px solid var(--line);padding:13px 0}.mcq-item:first-of-type{border-top:0}.mcq-item p{margin:0 0 9px;font-size:14px;font-weight:700}.mcq-item label{display:block;margin:7px 0;padding-left:2px;font-size:13.2px}.mcq-item input{margin-right:6px;accent-color:var(--accent)}
+
+
+/* Strong mobile-friendly interaction protection */
+html, body, .wrap, .header, .section, .rule, .scenario, .langbox, .actions, h1, h2, p, label, strong {
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-drag: none !important;
+}
+input, textarea, button {
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-drag: none !important;
+}
+img, svg, video, a { -webkit-user-drag: none !important; user-drag: none !important; }
+
+</style>
+</head>
+<body><div class="wrap">
+<header class="header"><h1>Business Life: Preference &amp; Compare–Contrast Lab</h1><p>Group discussion guide — state a preference, compare alternatives, support an argument, and propose a relevant third option.</p></header>
+<div class="meta">
+  <div class="field"><label>Group Members</label><input id="members" placeholder="Enter all group members"></div>
+  <div class="field"><label>Date</label><input id="date" value="5 October 2026"></div>
+</div>
+
+<section class="section"><h2>How the activity works</h2><p class="intro">Your group will choose <strong>ONE</strong> of the five business dilemmas. Do not simply say which option is “better.” Compare both sides, justify your preference, acknowledge a weakness, and develop a relevant alternative.</p><div class="rules"><div class="rule"><strong>1. Understand the dilemma</strong><br>Identify the real decision a business would have to make.</div><div class="rule"><strong>2. Compare</strong><br>Use clear criteria such as cost, people, risk, flexibility, growth, or long-term impact.</div><div class="rule"><strong>3. Argue</strong><br>Give reasons and evidence for your preference, not just personal taste.</div><div class="rule"><strong>4. Extend</strong><br>Offer a practical third option, compromise, or condition under which both sides could work.</div></div></section>
+<section class="section"><h2>A · Listening &amp; Notice</h2><p class="intro">Listen to <strong>How Shared Criteria Build Bulletproof Arguments</strong>. Complete Part 1 with the <strong>exact word or phrase you hear</strong>. Then answer Part 2 in your own words. Pay attention to how the speakers explain <strong>fair comparison, organization, evidence, and argument strength</strong>.</p><p class="small-note"><strong>Part 1 — Fill in the blanks:</strong> Complete each sentence with a word or phrase from the audio.</p><div class="audio-q"><label>1. Mastering this framework can make you a far more ______ communicator in any room you walk into.</label><textarea id="a1" placeholder="Exact word/phrase from the audio."></textarea></div><div class="audio-q"><label>2. To properly compare alternatives, you have to examine both sides using ______.</label><textarea id="a2"></textarea></div><div class="audio-q"><label>3. Listing only the benefits of the option you already want is described as ______.</label><textarea id="a3"></textarea></div><div class="audio-q"><label>4. If you compare one car by top speed and the other only by price, you instantly lose ______.</label><textarea id="a4"></textarea></div><div class="audio-q"><label>5. The first organizational method introduced in the audio is called the ______ structure.</label><textarea id="a5"></textarea></div><div class="audio-q"><label>6. The second method is the ______-by-______ structure.</label><textarea id="a6"></textarea></div><div class="audio-q"><label>7. In the second method, the speakers say you compare the options ______ by criterion.</label><textarea id="a7"></textarea></div><div class="audio-q"><label>8. The language bank suggests pivot phrases such as “Unlike X, Y provides” and “______.”</label><textarea id="a8"></textarea></div><div class="audio-q"><label>9. According to the audio, acknowledging limitations can make your final position academically and practically ______.</label><textarea id="a9"></textarea></div><div class="audio-q"><label>10. Instead of choosing only A or B, the speakers suggest proposing a ______ solution where both sides can work together.</label><textarea id="a10"></textarea></div><p class="small-note"><strong>Part 2 — Comprehension:</strong> Answer based on the ideas and examples discussed in the audio.</p><div class="audio-q"><label>11. Why do the speakers argue that shared criteria make a comparison fairer and more trustworthy?</label><textarea id="ac1" placeholder="Answer in your own words."></textarea></div><div class="audio-q"><label>12. What does the car-review example show about using different criteria for two alternatives?</label><textarea id="ac2"></textarea></div><div class="audio-q"><label>13. According to the audio, when is the block structure especially useful, and why?</label><textarea id="ac3"></textarea></div><div class="audio-q"><label>14. Why can acknowledging the strongest argument against your preference and one weakness in your own option make your argument stronger?</label><textarea id="ac4"></textarea></div><div class="audio-q"><label>15. What final question does the audio raise about binary business choices and hybrid solutions?</label><textarea id="ac5"></textarea></div></section>
+<section class="section"><h2>B · Choose ONE Scenario</h2><p class="intro">Every group may choose any one of the five. Select the scenario your group finds most interesting or discussable.</p><div class="scenarios" id="scenarioList"><div class="scenario" data-key="A"><div class="scenario-title"><input type="radio" name="scenario" value="A"><strong>A. Profit vs. Social Impact</strong></div><p class="dilemma"><b>Situation:</b> A profitable company wants to grow, but leadership also wants the business to create measurable social benefits.</p><p><b>Think about:</b> investor expectations, employees, customers, reputation, long-term sustainability.</p></div><div class="scenario" data-key="B"><div class="scenario-title"><input type="radio" name="scenario" value="B"><strong>B. Startup vs. Established Corporation</strong></div><p class="dilemma"><b>Situation:</b> A talented graduate receives two offers: join a fast-moving startup or work for a large established corporation.</p><p><b>Think about:</b> stability, autonomy, learning, salary, promotion, risk.</p></div><div class="scenario" data-key="C"><div class="scenario-title"><input type="radio" name="scenario" value="C"><strong>C. Remote Work vs. Office Work</strong></div><p class="dilemma"><b>Situation:</b> A company is deciding whether most employees should work remotely or return to the office.</p><p><b>Think about:</b> productivity, communication, teamwork, flexibility, cost, company culture.</p></div><div class="scenario" data-key="D"><div class="scenario-title"><input type="radio" name="scenario" value="D"><strong>D. Fast Growth vs. Sustainable Growth</strong></div><p class="dilemma"><b>Situation:</b> A successful company can expand quickly into new markets, but rapid expansion may increase financial and operational risk.</p><p><b>Think about:</b> speed, quality, risk, investment, customer trust, long-term resilience.</p></div><div class="scenario" data-key="E"><div class="scenario-title"><input type="radio" name="scenario" value="E"><strong>E. Local Sourcing vs. Global Sourcing</strong></div><p class="dilemma"><b>Situation:</b> A food company must decide whether to buy more ingredients locally or use international suppliers.</p><p><b>Think about:</b> price, quality, reliability, local jobs, supply risk, flexibility.</p></div></div><p class="small-note">Selected scenario: <strong id="selectedScenario">Not selected yet</strong></p></section>
+<section class="section"><h2>C · Your Group's Discussion</h2><p class="intro">Do not answer only from personal preference. Treat the scenario as a decision a real organization must make.</p><div class="prompt"><p class="q">1. What is the central decision in this scenario?</p><textarea id="c1" placeholder="State the decision precisely."></textarea></div><div class="prompt"><p class="q">2. Compare the two main options using TWO clear criteria.</p><textarea id="c2" placeholder="Example: Option A is stronger on ____, while Option B is stronger on ____. "></textarea></div><div class="prompt"><p class="q">3. What does your group prefer, and what are your TWO strongest reasons?</p><textarea id="c3" placeholder="State your preference + two reasons."></textarea></div><div class="prompt"><p class="q">4. What is the strongest reasonable argument for the other side?</p><textarea id="c4" placeholder="Give the opposing side its best argument."></textarea></div><div class="prompt"><p class="q">5. What is ONE weakness, risk, or limitation of your own preferred option?</p><textarea id="c5" placeholder="Acknowledge a genuine limitation."></textarea></div><div class="prompt"><p class="q">6. Under what condition might the other option actually be better?</p><textarea id="c6" placeholder="Identify a situation, stakeholder, or goal that could change the decision."></textarea></div><div class="prompt"><p class="q">7. Propose ONE relevant third option, compromise, or hybrid solution.</p><textarea id="c7" placeholder="Do not simply repeat A or B. Combine, modify, or redesign the choices."></textarea></div><div class="prompt"><p class="q">8. Give your group's position in ONE strong sentence.</p><textarea id="c8" placeholder="Example: Given the company's priorities, we would lean toward ... because ... ."></textarea></div></section>
+<section class="section"><h2>D · Language Bank</h2><div class="lang"><div class="langbox"><strong>State a preference</strong>I'd rather … / I prefer X to Y because … / Given the choice, I'd choose … / I lean toward …</div><div class="langbox"><strong>Compare &amp; contrast</strong>Both options … / Unlike X, Y … / A key difference is … / Similarly, … / In contrast, …</div><div class="langbox"><strong>Qualify &amp; offer alternatives</strong>One limitation is … / This might be better when … / A possible alternative would be … / Instead of choosing either, we could …</div></div></section>
+<section class="section"><h2>E · Final Check</h2><div class="final"><div class="field"><label>Our selected scenario</label><input id="finalScenario" readonly placeholder="Select a scenario above"></div><div class="field"><label>One criterion that mattered most</label><input id="finalCriterion" placeholder="e.g., long-term risk"></div></div></section>
+<div class="actions"><button id="download">Download as PDF</button><div id="downloadStatus" class="note" aria-live="polite">One copy per group • PDF includes the title header, group details, selected scenario, all questions, and all entered answers.</div></div>
+</div>
+<script>
+const labels={A:'Profit vs. Social Impact',B:'Startup vs. Established Corporation',C:'Remote Work vs. Office Work',D:'Fast Growth vs. Sustainable Growth',E:'Local Sourcing vs. Global Sourcing'};
+document.querySelectorAll('.scenario input').forEach(r=>r.addEventListener('change',()=>{document.querySelectorAll('.scenario').forEach(c=>c.classList.remove('selected'));r.closest('.scenario').classList.add('selected');document.getElementById('selectedScenario').textContent=labels[r.value];document.getElementById('finalScenario').value=labels[r.value];}));
+const v=id=>document.getElementById(id).value.trim();
+const vRadio=name=>document.querySelector(`input[name="${name}"]:checked`)?.value||'';
+
+/*
+  Self-contained PDF writer.
+  This deliberately avoids jsPDF/CDN dependencies so the same HTML works
+  when published on GitHub Pages, even when an external script is blocked.
+*/
+function cleanPdfText(s){
+  return String(s||'')
+    .replace(/[–—]/g,'-')
+    .replace(/[‘’]/g,"'")
+    .replace(/[“”]/g,'"')
+    .replace(/…/g,'...')
+    .replace(/•/g,'-')
+    .replace(/\u00A0/g,' ')
+    .replace(/[^\x20-\x7E]/g,'?');
+}
+function escPdf(s){
+  return cleanPdfText(s).replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
+}
+function wrapPdf(text,maxChars){
+  const raw=cleanPdfText(text || ' ');
+  if(!raw.trim()) return [''];
+  const words=raw.split(/\s+/); const lines=[]; let line='';
+  for(const word of words){
+    if(!line){line=word;continue;}
+    if((line+' '+word).length<=maxChars){line+=' '+word;}
+    else{lines.push(line);line=word;}
+  }
+  if(line) lines.push(line);
+  return lines.length?lines:[''];
+}
+function pdfMakePage(commands, pageNumber, totalPages){
+  const W=595.28,H=841.89;
+  const out=[];
+  out.push('q');
+  out.push('1 1 1 rg 0 0 '+W.toFixed(2)+' '+H.toFixed(2)+' re f');
+  // header — repeated on EVERY PDF page so the downloaded file is identifiable even when printed/saved separately
+  out.push('0.129 0.188 0.373 rg 42 776 511 48 re f');
+  // Header text must be explicitly WHITE. The previous version inherited the navy fill color,
+  // which made the title/subtitle effectively invisible on the navy header bar.
+  out.push('1 1 1 rg');
+  out.push('BT /F1 15 Tf 57 806 Td ('+escPdf('Business Life: Preference & Compare-Contrast Lab')+') Tj ET');
+  out.push('BT /F1 8.2 Tf 57 790 Td ('+escPdf('Group discussion guide | Preference, fair comparison, and relevant alternatives')+') Tj ET');
+  for(const c of commands){
+    if(c.type==='text'){
+      // Always reset text color before drawing text. This prevents answer text from inheriting
+      // the light fill color of an answer box and appearing blank in the exported PDF.
+      out.push((c.color || '0.129 0.188 0.373')+' rg');
+      out.push('BT /F1 '+c.size+' Tf 1 0 0 1 '+c.x.toFixed(2)+' '+(H-c.y).toFixed(2)+' Tm ('+escPdf(c.text)+') Tj ET');
+    }else if(c.type==='rect'){
+      if(c.fill){out.push(c.fill+' rg '+c.x+' '+(H-c.y-c.h)+' '+c.w+' '+c.h+' re f');}
+      if(c.stroke){out.push(c.stroke+' RG '+c.x+' '+(H-c.y-c.h)+' '+c.w+' '+c.h+' re S');}
+    }else if(c.type==='line'){
+      out.push(c.color+' RG '+c.x1+' '+(H-c.y1)+' m '+c.x2+' '+(H-c.y2)+' l S');
+    }
+  }
+  out.push('0.129 0.188 0.373 rg');
+  out.push('BT /F1 8 Tf 1 0 0 1 42 21 Tm ('+escPdf('One copy per group | A4 portrait')+') Tj ET');
+  out.push('BT /F1 8 Tf 1 0 0 1 515 21 Tm ('+pageNumber+' / '+totalPages+') Tj ET');
+  out.push('Q');
+  return out.join('\n');
+}
+function buildPdfBlob(){
+  const selected=document.querySelector('input[name="scenario"]:checked');
+  const members=v('members')||'Group Members';
+  const date=v('date')||'5 October 2026';
+  const scenario=selected?labels[selected.value]:'Not selected';
+  const pages=[]; let page=[]; let y=74;
+  const W=595.28, mx=42, uw=W-84;
+  const startPage=()=>{pages.push(page);page=[];y=74;};
+  const ensure=(needed=30)=>{if(y+needed>770){startPage();}};
+  const addText=(text,size=10,bold=false)=>{
+    const lines=wrapPdf(text, bold?88:94); const step=size+3; ensure(lines.length*step+4);
+    for(const line of lines){page.push({type:'text',x:mx,y,size,text:line}); y+=step;}
+    y+=3;
+  };
+  const addHeading=(text)=>{ensure(66);page.push({type:'text',x:mx,y,size:11.5,text});y+=18;};
+  const addBox=(q,a)=>{
+    const qLines=wrapPdf(q,88), aLines=wrapPdf(a||'(No answer)',88);
+    const h=20+qLines.length*11+(aLines.length*11)+9; ensure(h+8);
+    page.push({type:'rect',x:mx,y:y,w:uw,h,fill:'0.985 0.988 0.995',stroke:'0.86 0.88 0.93'});
+    let yy=y+13;
+    for(const line of qLines){page.push({type:'text',x:mx+7,y:yy,size:9.2,text:line});yy+=11;}
+    yy+=2;
+    for(const line of aLines){page.push({type:'text',x:mx+7,y:yy,size:9,text:line});yy+=11;}
+    y+=h+10;
+  };
+
+  page.push({type:'text',x:mx,y:y,size:9.2,text:'Group Members: '+members}); y+=12;
+  page.push({type:'text',x:mx,y:y,size:9.2,text:'Date: '+date+' | Selected Scenario: '+scenario}); y+=20;
+  addHeading('A - Listening & Notice');
+  addText('Part 1 - Fill in the blanks. Write the exact word or phrase you hear in the audio.');
+  [
+    ['1. Mastering this framework can make you a far more persuasive communicator in any room you walk into.',v('a1')],
+    ['2. To properly compare alternatives, you have to examine both sides using shared criteria.',v('a2')],
+    ['3. Listing only the benefits of the option you already want is described as confirmation bias.',v('a3')],
+    ['4. If you compare one car by top speed and the other only by price, you instantly lose credibility.',v('a4')],
+    ['5. The first organizational method introduced in the audio is called the block structure.',v('a5')],
+    ['6. The second method is the point-by-point structure.',v('a6')],
+    ['7. In the second method, the speakers say you compare the options criterion by criterion.',v('a7')],
+    ['8. The language bank suggests pivot phrases such as “Unlike X, Y provides” and “In contrast.”',v('a8')],
+    ['9. According to the audio, acknowledging limitations can make your final position academically and practically stronger.',v('a9')],
+    ['10. Instead of choosing only A or B, the speakers suggest proposing a hybrid solution where both sides can work together.',v('a10')]
+  ].forEach(x=>addBox(x[0],x[1]));
+  addText('Part 2 - Comprehension. Answer in your own words.');
+  [
+    ['11. Why do the speakers argue that shared criteria make a comparison fairer and more trustworthy?',v('ac1')],
+    ['12. What does the car-review example show about using different criteria for two alternatives?',v('ac2')],
+    ['13. According to the audio, when is the block structure especially useful, and why?',v('ac3')],
+    ['14. Why can acknowledging the strongest argument against your preference and one weakness in your own option make your argument stronger?',v('ac4')],
+    ['15. What final question does the audio raise about binary business choices and hybrid solutions?',v('ac5')]
+  ].forEach(x=>addBox(x[0],x[1]));
+
+  addHeading('B - Selected Scenario');
+  addBox('Scenario',scenario);
+
+  addHeading('C - Group Discussion');
+  [
+    ['1. What is the central decision in this scenario?',v('c1')],
+    ['2. Compare the two main options using TWO clear criteria.',v('c2')],
+    ['3. What does your group prefer, and what are your TWO strongest reasons?',v('c3')],
+    ['4. What is the strongest reasonable argument for the other side?',v('c4')],
+    ['5. What is ONE weakness, risk, or limitation of your own preferred option?',v('c5')],
+    ['6. Under what condition might the other option actually be better?',v('c6')],
+    ['7. Propose ONE relevant third option, compromise, or hybrid solution.',v('c7')],
+    ['8. Give your group\'s position in ONE strong sentence.',v('c8')]
+  ].forEach(x=>addBox(x[0],x[1]));
+
+  addHeading('D - Language Bank');
+  addText('State a preference: I prefer X to Y because ... / Given the choice, I\'d choose ... / I lean toward ...');
+  addText('Compare and contrast: Both options ... / Unlike X, Y ... / A key difference is ... / Similarly ... / In contrast ...');
+  addText('Qualify and offer alternatives: One limitation is ... / This might be better when ... / A possible alternative would be ...');
+
+  addHeading('E - Final Check');
+  addBox('One criterion that mattered most',v('finalCriterion'));
+  addBox('Group Members',members);
+  if(page.length) pages.push(page);
+
+  const objs=[]; const addObj=s=>{objs.push(s);return objs.length;};
+  addObj('<< /Type /Catalog /Pages 2 0 R >>');
+  const pagesKids=[]; const pageObjIds=[];
+  for(let i=0;i<pages.length;i++){const pid=4+i*2;const cid=5+i*2;pageObjIds.push(pid);pagesKids.push(pid+' 0 R');}
+  // reserve pages object
+  objs.splice(1,0,'<< /Type /Pages /Kids ['+pagesKids.join(' ')+'] /Count '+pages.length+' >>');
+  // font as object 3
+  objs.splice(2,0,'<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>');
+  for(let i=0;i<pages.length;i++){
+    const stream=pdfMakePage(pages[i],i+1,pages.length);
+    const pid=4+i*2, cid=5+i*2;
+    while(objs.length<pid-1) objs.push('');
+    objs[pid-1]='<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents '+cid+' 0 R >>';
+    objs[cid-1]='<< /Length '+stream.length+' >>\nstream\n'+stream+'\nendstream';
+  }
+  let pdf='%PDF-1.4\n'; const offsets=[0];
+  for(let i=0;i<objs.length;i++){offsets[i+1]=pdf.length;pdf+=(i+1)+' 0 obj\n'+objs[i]+'\nendobj\n';}
+  const xref=pdf.length;pdf+='xref\n0 '+(objs.length+1)+'\n0000000000 65535 f \n';
+  for(let i=1;i<offsets.length;i++) pdf+=String(offsets[i]).padStart(10,'0')+' 00000 n \n';
+  pdf+='trailer\n<< /Size '+(objs.length+1)+' /Root 1 0 R >>\nstartxref\n'+xref+'\n%%EOF';
+  return new Blob([pdf],{type:'application/pdf'});
+}
+
+document.getElementById('download').addEventListener('click',()=>{
+  const selected=document.querySelector('input[name="scenario"]:checked');
+  const status=document.getElementById('downloadStatus');
+  if(!selected){alert('Please select one scenario before downloading the PDF.');return;}
+  try{
+    const blob=buildPdfBlob();
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;
+    a.download='Business_Life_Preference_Compare_Contrast_Lab_Round7.pdf';
+    a.style.display='none';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1500);
+    status.textContent='PDF downloaded. Check your browser Downloads folder if it does not appear immediately.';
+  }catch(err){
+    console.error(err);
+    status.textContent='PDF download failed. Please reload the page and try again.';
+    alert('The PDF could not be generated. Please reload the page and try again.');
+  }
+});
+</script>
+<script>
+/* --- Strong content-protection layer (desktop + mobile browsers) --- */
+(function(){
+  const stop = (e) => { e.preventDefault(); e.stopPropagation(); return false; };
+  ['copy','cut','paste','contextmenu','dragstart','dragover','drop','selectstart'].forEach(type => {
+    document.addEventListener(type, stop, true);
+  });
+
+  // Mobile browsers may surface paste/drop through beforeinput rather than paste/drop.
+  document.addEventListener('beforeinput', (e) => {
+    const t = e.inputType || '';
+    if (t === 'insertFromPaste' || t === 'insertFromDrop' || t === 'insertReplacementText') {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  }, true);
+
+  document.addEventListener('keydown', (e) => {
+    const k = (e.key || '').toLowerCase();
+    if ((e.ctrlKey || e.metaKey) && ['c','x','v'].includes(k)) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    if (e.shiftKey && (e.ctrlKey || e.metaKey) && ['i','j','c'].includes(k)) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  }, true);
+
+  // Block programmatic drag/drop initiation on touch and pointer events.
+  document.addEventListener('pointerdown', (e) => {
+    if (e.target && e.target.closest && e.target.closest('a, img, svg, video')) {
+      e.preventDefault();
+    }
+  }, true);
+})();
+</script>
+
+</body></html>
